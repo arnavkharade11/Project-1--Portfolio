@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Test 7</title>
+</head>
+<style>
+ body {
+  font-family: 'Arial', sans-serif;
+  background-color: #eef2f3;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+
+ .contact-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%; 
+ }
+
+.contact-form h1 {
+text-align: center;
+font-size: 24px;
+color: #333;
+margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus
+.contact-form textarea:focus {
+  border-color: #4CAF50;
+  background: #fff;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form p {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.contact-form p a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+ .contact-form p a:hover {
+  text-decoration: underline;
+ }
+</style>
+<body>
+  <div class="contact-form">
+    <h1>Contact Us</h1>
+    <form action="/Pract7(1).html"method="post">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+    <label for="message">Message</label>
+    <textarea name="message" id="message" name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <p>Need Help? <a href="/Practice1.html">Contact Support</a></p>
+ </div>
+</body>
+</html>
